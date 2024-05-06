@@ -126,12 +126,23 @@ h3 {
 
 .footer {
     background-color: #111118;
-    padding-bottom: 30px;
     display: flex;
-    justify-content: space-around;
-    gap: 83px;
+    justify-content: space-between;
     color: white;
     font-family: sans-serif;
     font-size: 15px;
-    padding-top: 20px;
+    padding: 19px 12%;
+}
+
+.boolando-links {}
+
+.social-box {
+    display: flex;
+    gap: 10px;
+    font-size: 21px;
+    padding-top: 7px;
+}
+
+.footer a {
+    color:white;
 }
