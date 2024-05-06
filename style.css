@@ -38,13 +38,16 @@ main {
     margin: 4% 12%;
     justify-content: space-around;
     gap: 18px;
-    /*debug*/
     background-color: yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .product-container {
     position: relative;
+    width: calc((100% - 36px) / 3);
+    padding-bottom: 18px;
 }
 
 .remark {
@@ -54,12 +57,26 @@ main {
     bottom: 85px;
 }
 
+/*aquiiiiii estoy*/
 .product-img {
     width: 100%;
-    position: relative;
+
 }
 
+.hover-img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: none;
+}
 
+.product-container:hover .hover-img {
+    display:inline-block;
+
+}
+
+/*aquiiiiii estoy*/
 .heart {
     position: absolute;
     background-color: white;
