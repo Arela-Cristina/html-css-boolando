@@ -43,15 +43,30 @@ main {
 
 }
 
-.product-img {
-    width: 100%;
+.product-container {
+    position: relative;
 }
 
 .remark {
     display: flex;
     gap: 4px;
+    position: absolute;
+    bottom: 85px;
+}
+
+.product-img {
+    width: 100%;
     position: relative;
-    top: -47px;
+}
+
+
+.heart {
+    position: absolute;
+    background-color: white;
+    bottom: 90%;
+    left: 88%;
+    padding: 3% 3%;
+    font-size: 20px;
 }
 
 .discount-remark {
