@@ -149,13 +149,27 @@ h3 {
     padding: 19px 12%;
 }
 
-.boolando-links {}
+.boolando-box {
+    line-height: 22px;
+}
+
+.boolando-links {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    gap: 8px;
+}
 
 .social-box {
     display: flex;
     gap: 10px;
     font-size: 21px;
     padding-top: 7px;
+}
+
+.footer span {
+    font-weight: bold;
+
 }
 
 .footer a {
