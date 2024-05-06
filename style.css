@@ -45,7 +45,6 @@ main {
     margin: 4% 12%;
     justify-content: space-around;
     gap: 18px;
-    background-color: yellow;
     flex-direction: row;
     flex-wrap: wrap;
 
