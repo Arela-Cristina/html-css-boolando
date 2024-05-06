@@ -88,8 +88,15 @@ main {
     left: 88%;
     padding: 3% 3%;
     font-size: 20px;
+    color:black
+
 }
 
+.fa-heart:hover {
+    color: red;
+    
+} 
+ 
 .discount-remark {
     background-color: red;
     color: white;
@@ -174,4 +181,9 @@ h3 {
 
 .footer a {
     color: white;
+}
+
+.social-caption {
+    font-weight: bold;
+    font-size: 12px;
 }
